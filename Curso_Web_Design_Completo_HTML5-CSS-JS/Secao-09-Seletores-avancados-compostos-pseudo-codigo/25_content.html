@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> página de exemplo estrutura básica </title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Guilherme">
+        <meta name="description" content="descrição qualquer">
+        <meta name="keywords" content="html5, tecnologia">
+        
+        <style>
+            div{
+                border: 3px solid red;
+                padding: 25px;
+                position: relative;
+                margin: 25px;
+            }
+            div:before{
+                content: "before";
+                background-color: #ccc;
+            }
+            div:after{
+                content: "";
+                background-color: red;
+                width: 25px;
+                height: 25px;
+                display: inline-block;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div> texto principal da div </div>
+        <article class="destaque">
+            <h3>
+                titulo
+            </h3>
+            <p> paragrafo <a href="#">apenas um link com <b>negrito</b></a></p>
+            <p> paragrafo <a href="#">apenas um link com <b>negrito</b></a></p>
+            <p> paragrafo <a href="#">apenas um link com <b>negrito</b></a></p>
+        </article>
+
+        <ul>
+            <li><a href="#">link falso</a></li>
+            <li><a href="#">link falso</a></li>
+            <li><a href="http://google.com.br">link externo</a></li>
+            <li><a href="http://google.com.br/qualquer.pdf">link pdf</a></li>
+            <li><a href="/24_seletores.html" title="veja exercicio anterior">link interno</a></li>
+        </ul>
+    </body>
+</html>

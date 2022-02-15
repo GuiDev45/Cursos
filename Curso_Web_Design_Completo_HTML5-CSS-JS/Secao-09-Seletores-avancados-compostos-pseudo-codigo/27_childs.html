@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> página de exemplo estrutura básica </title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Guilherme">
+        <meta name="description" content="descrição qualquer">
+        <meta name="keywords" content="html5, tecnologia">
+        
+        <style>
+            div p:nth-child(3){/*Não vai pegar o terceiro parágrafo porque o "filho" foi para o hr, que é a terceira linha dessa div*/
+                color: red;
+            }
+            div p:nth-child(4){/*Agora o red está no terceiro parágrafo*/
+                color: red;
+            }
+
+            div p:nth-of-type(5){/*Dessa forma vai pegar realmente só parágrafos(ou outro elemento) dentro dessa div*/
+                color: green;
+            }
+
+            .destaque:nth-of-type(2){
+                color: orange;
+            }
+            .destaque:first-child{
+                color: blueviolet;
+            }
+            .destaque:last-child{/*Não dá certo porque o último filho é um hr*/
+                text-align: center;
+            }
+        </style>
+
+    </head>
+    <body>
+        
+        <div>
+            <p class="destaque">Meu parágrafo</p>
+            <p class="destaque">Meu parágrafo</p>
+            <hr>
+            <p>Meu parágrafo</p>
+            <p>Meu parágrafo</p>
+            <hr>
+            <p>Meu parágrafo</p>
+            <p>Meu parágrafo</p>
+            <hr>
+            <p>Meu parágrafo</p>
+            <p>Meu parágrafo</p>
+            <hr>
+        </div>
+
+    </body>
+</html>
