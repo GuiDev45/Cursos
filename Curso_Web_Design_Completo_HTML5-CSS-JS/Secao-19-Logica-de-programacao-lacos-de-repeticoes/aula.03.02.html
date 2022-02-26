@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Logica de Programação Javascript</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Lógica de programação com Javascript</h1>
+    </body>
+    
+    <script>
+        var numero = prompt("Digite um número");
+        numero = parseFloat(numero);
+
+        //indice maior que 1000
+        var indice = 1001;
+        //Lembrando que 'do' executa ao menos uma vez, mesmo que não entre no while.
+        do{
+            document.write(numero + " X " + indice + " = " + (numero * indice) + "<br>");// document.write não é usado, é só para ver os dados de saída mais fácil
+            indice++;
+        } while(indice <= 1000)
+
+        document.write("Saiu do while");
+
+        //Laço 'for' normal.
+        for(var i = 1; i <= 1000; i++) {
+            document.write(numero + " X " + i + " = " + (numero * i) + "<br>");
+        }
+
+        document.write("Saiu do while");
+    </script>
+</html>

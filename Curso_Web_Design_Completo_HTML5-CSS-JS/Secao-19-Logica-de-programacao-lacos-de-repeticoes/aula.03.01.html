@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Logica de Programação Javascript</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Lógica de programação com Javascript</h1>
+    </body>
+    
+    <script>
+        var numero = prompt("Digite um número");
+        numero = parseFloat(numero);
+
+        var indice = 1;
+
+        while(indice <= 1000){
+            document.write(numero + " X " + indice + " = " + (numero * indice) + "<br>");// document.write não é usado, é só para ver os dados de saída mais fácil
+            indice++;
+        }
+        document.write("Saiu do while");
+    </script>
+</html>
