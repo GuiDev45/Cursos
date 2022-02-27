@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Logica de Programação Javascript</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Lógica de programação com Javascript</h1>
+
+        <div id="output">o texto que o output.innerHTML está recebendo vai ser refletido aqui</div>
+            
+        <script>
+            //Sempre que precisar usar o javascript para acessar alguma coisa do mundo do html use sempre 'document. .....'
+            var output = document.querySelector("#output");
+
+            var mensagem = "";
+            for(var i = 0; i < 1001; i++) {
+                mensagem += "i: " + i + "<br>";
+            }
+
+            //output.innerHTML = "texto inserido por javascript"//Essa forma é custosa para o navegador, se toda hora for modificar desse jeito.
+
+            //Quando todo o loop do 'for' acabar, o output.innerHTML vai receber todas as modificações de uma vez.
+            output.innerHTML = mensagem;
+
+            //Essa é uma ideia de manipulação do html usando o javascript.
+        </script>
+
+    </body>
+</html>
