@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="pt-br"> <!--para o leitor de tela entender que a página está em pt-br-->
+    <head>
+        <title> Infusion </title>
+        <meta charset="utf-8"> <!--codificação de caracteres-->
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!--para que funcione em aparelhos mobile-->
+        <meta name="author" content="Guilherme B">
+        <meta name="description" content="projeto final">
+        <meta name="keywords" content="html5, tecnologia"> <!--termos de busca que aparecem nos resultados de uma busca e anúncios relacionados-->
+
+        <script src="https://kit.fontawesome.com/694932b9fa.js" crossorigin="anonymous"></script> <!--kit para importar icones do fontawesome-->
+        
+        <!-- Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+        
+      <link rel="stylesheet" href="/ProjetoInfusion/style/normalize.css"> <!--limpa TODOS os padrões dos navegadores, corrige alguns bugs que existem nas estilizações padrões-->
+      <link rel="stylesheet" href="/ProjetoInfusion/style/main.css"> <!--adicionando o main.css para os estilos-->
+    </head>
+
+    <body class="no-js">
+        <header class="header"> <!--cabeçalho-->
+          <a href="/ProjetoInfusion/index.html" class="logo-text">Infusion</a> <!--elemento <a> com atributo href, o conteúdo dentro de cada <a> indica o destino do link-->
+          
+          <button style="display: none;" class="header__btnMenu"><i class="fa-solid fa-bars fa-2x"></i><span class="sr-only">Menu</span></button> <!--tag para colocar botão-->
+          
+          <nav class="header__nav"> <!--tag <nav> é para uma seção com links de navegação-->
+            <ul> <!--tag <ul> lista desordenada-->
+              <li><a href="#">design folio</a></li> <!--tag <li> é usado para representar um item que faz parte de uma lista-->
+              <li><a href="#">services</a></li>
+              <li><a href="#">our business</a></li>
+              <li><a href="#">how we help</a></li>
+              <li><a href="#">take the tour</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </nav>
+        </header>
+        
+        <section class="hero"> <!--representa uma seção genérica-->
+          <h1 class="hero__title"> <!--definir títulos e seu nível de imnportância-->
+            <!--<abbr>. esta tag representa uma abreviação e opcionalmente fornece uma descrição completa para ela, dessa forma melhora a semântica para leitores de tela-->
+            Cutting edge <abbr title="Wordpress">WP</abbr> business theme
+          </h1>
+          <p class="hero__text">Gutful of bottlo no dramas he's got a massive hooroo.</p> <!--tag <p> parágrafo-->
+
+          <a href="#" class="hero__btn">Buy it now</a> <!--'#' é apenas para fazer testes de link-->                   
+        </section>
+        
+        <div class="container">
+          <section class="people-cards">
+            
+              <article class="people-cards__card"> <!--tag <article>, especifica conteúdo independente e autônomo--> 
+                <img src="/ProjetoInfusion/img/c01.jpg" alt="Carousel Img" class="people-cards__image"> <!--alt="Carousel Img, texto alternativo-->
+                
+                <div class="people-cards__avatar"> <!-- é um container genérico para conteúdo de fluxo, que de certa forma não representa nada-->
+                  <img src="/ProjetoInfusion/img/teamsprite_01.png" alt="Carousel Img">
+                </div>
+
+                <div class="people-cards__content">
+                  <h2 class="people-cards__title">Lorem ipsum dolor sit amet consectetur</h2>
+                  <p class="people-cards__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa.</p>
+                </div>
+              </article>
+              
+              <article class="people-cards__card">
+                <img src="/ProjetoInfusion/img/c02.jpg" alt="Carousel Img" class="people-cards__image">
+                
+                <div class="people-cards__avatar">
+                  <img src="/ProjetoInfusion/img/teamsprite_02.png" alt="Carousel Img">
+                </div>
+
+                <div class="people-cards__content">
+                  <h2 class="people-cards__title">Lorem ipsum dolor sit amet consectetur</h2>
+                  <p class="people-cards__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa.</p>
+                </div>
+              </article>
+
+              <article class="people-cards__card">
+                <img src="/ProjetoInfusion/img/c03.jpg" alt="Carousel Img" class="people-cards__image">
+                
+                <div class="people-cards__avatar">
+                  <img src="/ProjetoInfusion/img/teamsprite_03.png" alt="Carousel Img">
+                </div>
+
+                <div class="people-cards__content">
+                  <h2 class="people-cards__title">Lorem ipsum dolor sit amet consectetur</h2>
+                  <p class="people-cards__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa.</p>
+                </div>
+              </article>
+
+              <article class="people-cards__card">
+                <img src="/ProjetoInfusion/img/c04.jpg" alt="Carousel Img" class="people-cards__image">
+                
+                <div class="people-cards__avatar">
+                  <img src="/ProjetoInfusion/img/teamsprite_04.png" alt="Carousel Img">
+                </div>
+
+                <div class="people-cards__content">
+                  <h2 class="people-cards__title">Lorem ipsum dolor sit amet consectetur</h2>
+                  <p class="people-cards__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa.</p>
+                </div>
+              </article>
+            </div>
+          </section>
+        </div>
+        
+        <div class="container">
+          <section class="content">
+            <article>
+              <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed.</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. 
+                Proin sed molestie massa. Nullam condimentum mauris et rhoncus sagittis. 
+                Sed eu metus in diam tincidunt egestas non at odio. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>   
+
+              <a href="#" class="button button-primary">BUTTON</a>
+              <a href="#" class="button button-secondary">BUTTON</a>
+            </article>
+
+            <article>
+              <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed.</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. 
+                Nullam condimentum mauris et rhoncus sagittis. Sed eu metus in diam tincidunt egestas non at odio.</p>
+              <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean vitae lectus erat. Duis consequat laoreet velit. 
+                Mauris convallis, sapien sit amet scelerisque accumsan, felis urna aliquet nunc, viverra mollis odio tellus a nisl. 
+                Nulla lobortis lectus non rutrum viverra. Sed et molestie libero. Sed ut ultrices dui.</p>
+            </article>  
+          </section>
+        </div>
+
+        <section class="last-articles">
+          <div class="last-articles__title">
+            <div class="container">
+              <h2>Latest Articles</h2>
+            </div>
+          </div>
+
+          <div class="last-articles__thumbs">
+              <a href="#"><img src="/ProjetoInfusion/img/articles/01.jpg" alt=""></a>
+              <a href="#"><img src="/ProjetoInfusion/img/articles/02.jpg" alt=""></a>
+              <a href="#"><img src="/ProjetoInfusion/img/articles/03.jpg" alt=""></a>
+              <a href="#"><img src="/ProjetoInfusion/img/articles/04.jpg" alt=""></a>
+              <a href="#"><img src="/ProjetoInfusion/img/articles/05.jpg" alt=""></a>
+              <a href="#"><img src="/ProjetoInfusion/img/articles/06.jpg" alt=""></a>
+              <a href="#"><img src="/ProjetoInfusion/img/articles/07.jpg" alt=""></a>
+              <a href="#"><img src="/ProjetoInfusion/img/articles/08.jpg" alt=""></a>
+              <a href="#"><img src="/ProjetoInfusion/img/articles/09.jpg" alt=""></a>
+              <a href="#"><img src="/ProjetoInfusion/img/articles/10.jpg" alt=""></a>
+              <a href="#"><img src="/ProjetoInfusion/img/articles/11.jpg" alt=""></a>
+              <a href="#"><img src="/ProjetoInfusion/img/articles/12.jpg" alt=""></a>
+          </div>
+        </section>
+
+        <div class="laptop-slider">            
+          <div class="slideshow">
+            <!--<figure>, destina-se a marcar uma unidade de conteúdo e opcionalmente uma legenda-->
+            <!--figure não tem nada haver com figura-->
+            <figure><img alt="" src="/ProjetoInfusion/img/slider/slide-01.png" /></figure>
+            <figure><img alt="" src="/ProjetoInfusion/img/slider/slide-02.png" /></figure>
+            <figure><img alt="" src="/ProjetoInfusion/img/slider/slide-01.png" /></figure>
+            <figure><img alt="" src="/ProjetoInfusion/img/slider/slide-02.png" /></figure>
+            <span class="prev" style="display: none;"><i class="fas fa-angle-left fa-4x"></i></span>
+            <span class="next" style="display: none;"><i class="fas fa-angle-right fa-4x"></i></span>
+          </div>                    
+        </div>
+        
+        <section class="quote-container">
+          <div class="quote-slideshow">
+            <figure>
+              <h2>Nam mi enim, auctor non ultricies a, fringilla eu risus. Praesent vitae lorem et elit tincidunt accumsan suscipit eu libero. </h2>
+              <figcaption>
+                Nam mi enim, auctor non ultricies.
+              </figcaption>
+            </figure>
+
+            <figure>
+              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa.</h2>
+              <figcaption>
+                Nam mi enim, auctor.
+              </figcaption>
+            </figure>
+          </div>
+          <!--<span> é um conteiner generico em linha para conteúdo fraseado, que não representa nada por natureza-->
+          <span class="prev" style="display: none;"><i class="fas fa-angle-left fa-2x"></i></span> 
+          <span class="next" style="display: none;"><i class="fas fa-angle-right fa-2x"></i></span>
+        </section>
+
+        <footer class="footer">
+          <div class="container">
+            <h2 class="footer__logo">Infusion</h2>
+            <p>Nam mi enim, auctor non ultricies a, fringilla eu risus. Praesent vitae lorem et elit tincidunt accumsan suscipit eu libero. 
+              Maecenas diam est, venenatis vitae dui in, vestibulum mollis arcu. Donec eu nibh tincidunt, dapibus sem eu, aliquam dolor. 
+              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum consectetur commodo eros, vitae laoreet lectus aliq</p>
+            <p>aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum consectetur commodo eros, vitae laoreet lectus aliq</p>
+
+            <ul class="footer__links">
+              <li><a href="#">List One</a></li>
+              <li><a href="#">Page Two</a></li>
+              <li><a href="#">Design</a></li>
+              <li><a href="#">Work</a></li>
+              <li><a href="#">Contact Me</a></li>
+            </ul>
+          </div>
+        </footer>
+
+        <script src="/ProjetoInfusion/js/menu.js"></script>
+        <script src="/ProjetoInfusion/js/carousel.js"></script>
+        <script src="/ProjetoInfusion/js/main.js"></script>
+
+    </body>
+</html>
