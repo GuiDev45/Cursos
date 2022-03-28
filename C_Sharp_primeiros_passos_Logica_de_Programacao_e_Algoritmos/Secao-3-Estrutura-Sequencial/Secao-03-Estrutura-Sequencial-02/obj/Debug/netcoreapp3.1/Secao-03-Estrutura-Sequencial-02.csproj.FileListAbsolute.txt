@@ -1,0 +1,13 @@
+C:\workspaces\ws-c-sharp\Secao-03-Estrutura-Sequencial-02\bin\Debug\netcoreapp3.1\Secao-03-Estrutura-Sequencial-02.exe
+C:\workspaces\ws-c-sharp\Secao-03-Estrutura-Sequencial-02\bin\Debug\netcoreapp3.1\Secao-03-Estrutura-Sequencial-02.deps.json
+C:\workspaces\ws-c-sharp\Secao-03-Estrutura-Sequencial-02\bin\Debug\netcoreapp3.1\Secao-03-Estrutura-Sequencial-02.runtimeconfig.json
+C:\workspaces\ws-c-sharp\Secao-03-Estrutura-Sequencial-02\bin\Debug\netcoreapp3.1\Secao-03-Estrutura-Sequencial-02.runtimeconfig.dev.json
+C:\workspaces\ws-c-sharp\Secao-03-Estrutura-Sequencial-02\bin\Debug\netcoreapp3.1\Secao-03-Estrutura-Sequencial-02.dll
+C:\workspaces\ws-c-sharp\Secao-03-Estrutura-Sequencial-02\bin\Debug\netcoreapp3.1\Secao-03-Estrutura-Sequencial-02.pdb
+C:\workspaces\ws-c-sharp\Secao-03-Estrutura-Sequencial-02\obj\Debug\netcoreapp3.1\Secao-03-Estrutura-Sequencial-02.csprojAssemblyReference.cache
+C:\workspaces\ws-c-sharp\Secao-03-Estrutura-Sequencial-02\obj\Debug\netcoreapp3.1\Secao-03-Estrutura-Sequencial-02.AssemblyInfoInputs.cache
+C:\workspaces\ws-c-sharp\Secao-03-Estrutura-Sequencial-02\obj\Debug\netcoreapp3.1\Secao-03-Estrutura-Sequencial-02.AssemblyInfo.cs
+C:\workspaces\ws-c-sharp\Secao-03-Estrutura-Sequencial-02\obj\Debug\netcoreapp3.1\Secao-03-Estrutura-Sequencial-02.csproj.CoreCompileInputs.cache
+C:\workspaces\ws-c-sharp\Secao-03-Estrutura-Sequencial-02\obj\Debug\netcoreapp3.1\Secao-03-Estrutura-Sequencial-02.dll
+C:\workspaces\ws-c-sharp\Secao-03-Estrutura-Sequencial-02\obj\Debug\netcoreapp3.1\Secao-03-Estrutura-Sequencial-02.pdb
+C:\workspaces\ws-c-sharp\Secao-03-Estrutura-Sequencial-02\obj\Debug\netcoreapp3.1\Secao-03-Estrutura-Sequencial-02.genruntimeconfig.cache

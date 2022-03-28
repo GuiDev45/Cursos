@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Secao-03-Estrutura-Sequencial-02/1.0.0": {
+        "runtime": {
+          "Secao-03-Estrutura-Sequencial-02.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Secao-03-Estrutura-Sequencial-02/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
