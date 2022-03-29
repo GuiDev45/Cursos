@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\jaspi\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\jaspi\\.nuget\\packages"
-    ]
-  }
-}
