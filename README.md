@@ -43,7 +43,7 @@
 [Link do curso](https://www.udemy.com/course/curso-web-design-fundamentos-aprenda-html-css-e-javascript/)
 ### Professor Daniel Tapias Morales
 
-- montar qualquer tipo de site estático
+- Montar qualquer tipo de site estático
 - Criar sites responsivos
 - Cria layouts complexos com flexbox e CSS grid
 - Criar efeitos super interessantes com CSS3
