@@ -35,3 +35,17 @@
 - Matrizes
 - Testes de mesa
 - Depuração de programas
+
+
+
+## :white_check_mark: Completo
+## Curso Web Design Completo: HTML5, CSS3 e JS + 5 Projetos
+[Link do curso](https://www.udemy.com/course/curso-web-design-fundamentos-aprenda-html-css-e-javascript/)
+### Professor Daniel Tapias Morales
+
+- Montar qualquer tipo de site estático
+- Criar sites responsivos
+- Cria layouts complexos com flexbox e CSS grid
+- Criar efeitos super interessantes com CSS3
+
+
