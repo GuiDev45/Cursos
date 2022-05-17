@@ -3,6 +3,21 @@
 
 
 ## :white_check_mark: Completo
+## C# primeiros passos: Lógica de Programação e Algoritmos
+[Link do curso](https://www.udemy.com/course/logica-de-programacao-csharp/)
+### Professor Nelio Alves
+
+- Introdução à programação
+- Expressões
+- Estrutura sequencial
+- Estrutura condicional (if/else)
+- Estruturas repetitivas (while, for)
+- Vetores
+- Matrizes
+
+
+
+## :white_check_mark: Completo
 ## Java COMPLETO Programação Orientada a Objetos + Projetos
 [Link do curso](https://www.udemy.com/course/java-curso-completo/)
 ### Professor Nelio Alves
