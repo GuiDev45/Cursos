@@ -3,6 +3,19 @@
 
 
 ## :white_check_mark: Completo
+## C# COMPLETO Programação Orientada a Objetos + Projetos
+[Link do curso](https://www.udemy.com/course/programacao-orientada-a-objetos-csharp/)
+### Professor Nelio Alves
+
+- Programação Orientada a Objetos e linguagem C#
+- Adquirir a base sólida teórica e prática para ser um desenvolvedor C#
+- Diagramas de classe UML, tanto de entidades quanto de serviços
+- Soluções flexíveis, extensíveis e testáveis
+- Aplicar o conhecimento de orientação a objetos na construção de soluções para problemas reais
+
+
+
+## :white_check_mark: Completo
 ## C# primeiros passos: Lógica de Programação e Algoritmos
 [Link do curso](https://www.udemy.com/course/logica-de-programacao-csharp/)
 ### Professor Nelio Alves
