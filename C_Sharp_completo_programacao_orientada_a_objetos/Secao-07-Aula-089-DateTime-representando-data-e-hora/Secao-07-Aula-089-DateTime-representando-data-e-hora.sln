@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secao-07-Aula-089-DateTime-representando-data-e-hora", "Secao-07-Aula-089-DateTime-representando-data-e-hora\Secao-07-Aula-089-DateTime-representando-data-e-hora.csproj", "{B1CCF8E0-F077-4C16-B9C0-EA7806A4274C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1CCF8E0-F077-4C16-B9C0-EA7806A4274C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1CCF8E0-F077-4C16-B9C0-EA7806A4274C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1CCF8E0-F077-4C16-B9C0-EA7806A4274C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1CCF8E0-F077-4C16-B9C0-EA7806A4274C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE8D8DEB-4433-43D2-9426-C2A69D90D0FC}
+	EndGlobalSection
+EndGlobal
