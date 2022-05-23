@@ -1,0 +1,19 @@
+﻿
+namespace Secao_09_Aula_132_Exercicio_proposto_Enumeracoes_e_composicao.Entities
+{
+    internal class Product
+    {
+        public string Name { get; set; }
+        public double Price { get; set; }
+
+        public Product()
+        {
+        }
+
+        public Product(string name, double price)
+        {
+            Name = name;
+            Price = price;
+        }
+    }
+}
