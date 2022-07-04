@@ -3,6 +3,23 @@
 
 
 ## :white_check_mark: Completo
+## PHP do Zero a Maestria + 4 Projetos incríveis
+[Link do curso](https://www.udemy.com/course/php-do-zero-a-maestria-com-projetos-incriveis/#instructor-1)
+### Professor Matheus Battisti
+
+- Tipos de dados em PHP
+- Orientação a Objetos em PHP
+- Bancos de dados com PHP
+- Design patterns com PHP
+- Programar de forma avançada com a linguagem PHP
+- Estruturas de repetição e condição em PHP
+- PHP e MySQL (PDO, conexão, CRUD)
+- Páginas dinâmicas com PHP, MySQL, HTML e CSS
+- Criar projetos web avançados (boas práticas, clean code, responsividade)
+
+
+
+## :white_check_mark: Completo
 ## C# COMPLETO Programação Orientada a Objetos + Projetos
 [Link do curso](https://www.udemy.com/course/programacao-orientada-a-objetos-csharp/)
 ### Professor Nelio Alves
